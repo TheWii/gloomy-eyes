@@ -5,6 +5,13 @@ scoreboard objectives add twge.data dummy
 scoreboard objectives add twge.temp dummy
 
 scoreboard objectives add twge.id dummy
+scoreboard objectives add twge.pose dummy
+scoreboard objectives add twge.animation dummy
+scoreboard objectives add twge.haunt dummy
+
+
+# Vanilla+ Lib modules
+execute unless data storage thewii:gloomy_eyes/data installed run function thewii:vp_library/math/add
 
 
 # Installed

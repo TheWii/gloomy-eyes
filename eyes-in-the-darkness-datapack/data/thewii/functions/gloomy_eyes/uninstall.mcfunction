@@ -4,6 +4,13 @@
 scoreboard objectives remove twge.data
 scoreboard objectives remove twge.temp
 scoreboard objectives remove twge.id
+scoreboard objectives remove twge.pose
+scoreboard objectives remove twge.animation
+scoreboard objectives remove twge.haunt
+
+
+# Vanilla+ Lib modules
+execute if data storage thewii:gloomy_eyes/data installed run function thewii:vp_library/math/remove
 
 
 # Clear storages

@@ -4,7 +4,7 @@
 scoreboard players remove $gloomy_eyes twge.temp 1
 
 # Particles
-particle minecraft:large_smoke ~ ~0.75 ~ 0.4 0.4 0.4 0.05 25 normal
+particle minecraft:large_smoke ~ ~0.75 ~ 0.4 0.4 0.4 0.05 25 force
 
 # Disappeared
 scoreboard players set $disappeared twge.temp 1
