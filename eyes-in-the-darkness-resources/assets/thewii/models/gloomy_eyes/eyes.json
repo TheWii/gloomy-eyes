@@ -1,0 +1,21 @@
+{
+	"texture_size": [14, 4],
+	"textures": {
+		"layer0": "thewii:gloomy_eyes/eyes"
+	},
+	"elements": [
+		{
+			"from": [1, 6, 8],
+			"to": [15, 10, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -6, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

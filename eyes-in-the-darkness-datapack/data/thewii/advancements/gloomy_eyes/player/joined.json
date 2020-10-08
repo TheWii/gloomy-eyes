@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "rewards": {
+        "function": "thewii:gloomy_eyes/player/joined0"
+    }
+}
