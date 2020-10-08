@@ -21,8 +21,10 @@ execute unless score $pose twge.temp = @s twge.pose run function thewii:gloomy_e
 
 
 # Appearing delay
-scoreboard players add @s twge.animation 1
-execute if score @s twge.animation matches 0 run data modify entity @s ArmorItems set value [{},{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{CustomModelData:438000}}]
+execute if score @s twge.animation matches ..4 run scoreboard players add @s twge.animation 1
+execute if score @s twge.animation matches 10.. run scoreboard players remove @s twge.animation 1
+
+execute if score @s twge.animation matches 0.. run function thewii:gloomy_eyes/eyes/animation/main
 
 
 # Check disappearing
