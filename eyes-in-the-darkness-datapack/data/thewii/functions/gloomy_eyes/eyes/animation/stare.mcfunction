@@ -6,5 +6,5 @@ scoreboard players operation #max twvp.math = #eyes.max_staring_time twge.data
 
 function thewii:vp_library/math/lcg/ranged_rng
 
-scoreboard players set @s twge.animation 14
+scoreboard players set @s twge.animation 12
 scoreboard players operation @s twge.animation += #result twvp.math

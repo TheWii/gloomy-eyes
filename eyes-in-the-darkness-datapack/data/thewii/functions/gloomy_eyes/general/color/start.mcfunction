@@ -42,5 +42,5 @@ scoreboard players operation #result twvp.math += #rgb.green twvp.temp
 scoreboard players operation #result twvp.math *= #256 twvp.math
 scoreboard players operation #result twvp.math += #rgb.blue twvp.temp
 
-
-tellraw @a ["Hue: ",{"score":{"name":"#hsv.h","objective":"twvp.temp"}},", RGB: ",{"score":{"name":"#rgb.red","objective":"twvp.temp"}}," ",{"score":{"name":"#rgb.green","objective":"twvp.temp"}}," ",{"score":{"name":"#rgb.blue","objective":"twvp.temp"}},", Int: ",{"score":{"name":"#result","objective":"twvp.math"}}]
+# DEBUG Hue to RGB
+#tellraw @a ["Hue: ",{"score":{"name":"#hsv.h","objective":"twvp.temp"}},", RGB: ",{"score":{"name":"#rgb.red","objective":"twvp.temp"}}," ",{"score":{"name":"#rgb.green","objective":"twvp.temp"}}," ",{"score":{"name":"#rgb.blue","objective":"twvp.temp"}},", Int: ",{"score":{"name":"#result","objective":"twvp.math"}}]

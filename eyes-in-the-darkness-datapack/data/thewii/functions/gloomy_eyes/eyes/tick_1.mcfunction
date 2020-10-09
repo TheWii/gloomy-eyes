@@ -21,9 +21,13 @@ execute unless score $pose twge.temp = @s twge.pose run function thewii:gloomy_e
 
 
 # Appearing delay
-execute if score @s twge.animation matches ..4 run scoreboard players add @s twge.animation 1
+execute if score @s twge.animation matches ..2 run scoreboard players add @s twge.animation 1
 execute if score @s twge.animation matches 10.. run scoreboard players remove @s twge.animation 1
 
+## Appearing sound
+execute if score @s twge.animation matches -1 run playsound thewii:gloomy_eyes.eyes.scream hostile @a[tag=twge.self,limit=1] ~ ~ ~ 0.5 1
+
+## Animations
 execute if score @s twge.animation matches 0.. run function thewii:gloomy_eyes/eyes/animation/main
 
 

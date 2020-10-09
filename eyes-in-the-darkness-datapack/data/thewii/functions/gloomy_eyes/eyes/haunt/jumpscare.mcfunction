@@ -2,11 +2,11 @@
 
 # Jumpscare
 scoreboard players set #jumpscare twge.temp 1
+scoreboard players set #silent twge.temp 1
 
 # Sounds
-execute at @s run playsound minecraft:entity.ghast.hurt player @s ~ ~ ~ 1 0.6
+playsound thewii:gloomy_eyes.eyes.scream player @a[tag=twge.self,limit=1] ~ ~ ~ 1 1
 
 # Effects
 effect give @s minecraft:nausea 9 1 true
 effect give @s minecraft:blindness 9 0 true
-effect give @s minecraft:night_vision 8 0 true

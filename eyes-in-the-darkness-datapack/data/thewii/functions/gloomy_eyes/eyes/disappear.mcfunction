@@ -8,7 +8,7 @@ particle minecraft:large_smoke ~ ~0.75 ~ 0.4 0.4 0.4 0.05 25 force
 
 # Disappeared
 scoreboard players set $disappeared twge.temp 1
-playsound minecraft:entity.phantom.death ambient @a ~ ~ ~ 0.25 1.5
+execute unless score #silent twge.temp matches 1 run playsound minecraft:entity.phantom.death ambient @a ~ ~ ~ 0.25 1.5
 
 # Kill
 kill @s

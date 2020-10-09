@@ -30,6 +30,7 @@ execute at @s unless predicate thewii:gloomy_eyes/max_light run scoreboard playe
 
 
 ## Disappear if true
+scoreboard players set $silent twgetemp 0
 execute if score $facing twge.temp matches 1 at @s run function thewii:gloomy_eyes/eyes/disappear
 
 
@@ -42,9 +43,9 @@ execute if score $look_away twge.temp matches 0 if score $distance twge.temp mat
 execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 3 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.15] run scoreboard players set $look_away twge.temp 1
 execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 4 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.1475] run scoreboard players set $look_away twge.temp 1
 execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 5 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
-execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 6 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
-execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 7 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
-execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 8 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
+#execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 6 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
+#execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 7 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
+#execute if score $look_away twge.temp matches 0 if score $distance twge.temp matches 8 positioned ~ ~0.75 ~ facing entity @s eyes positioned ^ ^ ^0.1 as @a[tag=twge.self,limit=1] rotated as @s anchored feet positioned ^ ^ ^-0.1 positioned ~ ~-0.75 ~ unless entity @s[distance=..0.145] run scoreboard players set $look_away twge.temp 1
 
 execute if score $look_away twge.temp matches 1 run function thewii:gloomy_eyes/eyes/haunt/main
 execute if score $look_away twge.temp matches 0 if score @s twge.haunt matches 1.. run function thewii:gloomy_eyes/eyes/haunt/cancel

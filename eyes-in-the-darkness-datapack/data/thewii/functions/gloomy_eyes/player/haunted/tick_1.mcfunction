@@ -18,7 +18,7 @@ execute if score $gloomy_eyes twge.temp matches ..0 run tag @s remove twge.haunt
 
 
 # Disappeared sound
-execute if score $disappeared twge.temp matches 1 at @s run playsound minecraft:entity.phantom.death ambient @s ~ ~ ~ 1 1.5
+execute if score $disappeared twge.temp matches 1 at @s run playsound thewii:gloomy_eyes.eyes.scream hostile @s ~ ~ ~ 0.5 1
 
 
 # Remove tag from self

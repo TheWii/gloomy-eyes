@@ -10,9 +10,7 @@
     { "predicate": { "custom_model_data": 438000 }, "model": "thewii:gloomy_eyes/eyes/eyes_opening0" },
     { "predicate": { "custom_model_data": 438001 }, "model": "thewii:gloomy_eyes/eyes/eyes_opening1" },
     { "predicate": { "custom_model_data": 438002 }, "model": "thewii:gloomy_eyes/eyes/eyes_opening2" },
-    { "predicate": { "custom_model_data": 438003 }, "model": "thewii:gloomy_eyes/eyes/eyes_opening3" },
-    { "predicate": { "custom_model_data": 438004 }, "model": "thewii:gloomy_eyes/eyes/eyes_opening4" },
-    { "predicate": { "custom_model_data": 438005 }, "model": "thewii:gloomy_eyes/eyes/eyes_staring" }
+    { "predicate": { "custom_model_data": 438003 }, "model": "thewii:gloomy_eyes/eyes/eyes_staring" }
 
   ]
 }

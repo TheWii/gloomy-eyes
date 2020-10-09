@@ -6,7 +6,9 @@ scoreboard objectives remove twge.temp
 scoreboard objectives remove twge.id
 scoreboard objectives remove twge.pose
 scoreboard objectives remove twge.animation
+scoreboard objectives remove twge.sound
 scoreboard objectives remove twge.haunt
+scoreboard objectives remove twge.chance
 
 
 # Vanilla+ Lib modules

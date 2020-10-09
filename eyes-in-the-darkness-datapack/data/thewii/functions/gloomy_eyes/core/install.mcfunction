@@ -7,7 +7,9 @@ scoreboard objectives add twge.temp dummy
 scoreboard objectives add twge.id dummy
 scoreboard objectives add twge.pose dummy
 scoreboard objectives add twge.animation dummy
+scoreboard objectives add twge.sound dummy
 scoreboard objectives add twge.haunt dummy
+scoreboard objectives add twge.chance dummy
 
 
 # Vanilla+ Lib modules

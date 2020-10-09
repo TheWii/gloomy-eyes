@@ -42,3 +42,15 @@ schedule function thewii:gloomy_eyes/core/tick/100 100t
 #declare tag twge.eyes
 #declare tag twge.matched
 #declare tag twge.haunted
+
+#declare score_holder #eyes.looking_away_time
+
+#declare score_holder #eyes.min_appearing_delay
+#declare score_holder #eyes.max_appearing_delay
+
+#declare score_holder #eyes.min_staring_time
+#declare score_holder #eyes.max_staring_time
+
+#declare score_holder #eyes.default_summon_chance
+#declare score_holder #eyes.summon_chance_increase
+#declare score_holder #eyes.summon_max_ascend

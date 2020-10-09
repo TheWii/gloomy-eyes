@@ -1,0 +1,134 @@
+{
+    "gloomy_eyes.eyes.scream": {
+        "sounds": [
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream0",
+                "volume": 0.8,
+                "pitch": 1.0,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream1",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream0",
+                "volume": 0.9,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream1",
+                "volume": 0.95,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream0",
+                "volume": 1.0,
+                "pitch": 0.875,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/scream1",
+                "volume": 0.95,
+                "pitch": 0.875,
+                "weight": 1
+            }
+        ]
+    },
+    "gloomy_eyes.eyes.laugh": {
+        "sounds": [
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh0",
+                "volume": 1.0,
+                "pitch": 0.95,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh1",
+                "volume": 1.0,
+                "pitch": 1.1,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh2",
+                "volume": 1.0,
+                "pitch": 1.05,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh0",
+                "volume": 0.9,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh1",
+                "volume": 0.9,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh2",
+                "volume": 0.8,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh0",
+                "volume": 0.8,
+                "pitch": 0.8,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh1",
+                "volume": 1.0,
+                "pitch": 0.8,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/laugh2",
+                "volume": 0.9,
+                "pitch": 0.8,
+                "weight": 1
+            }
+        ]
+    },
+    "gloomy_eyes.eyes.blink": {
+        "sounds": [
+            {
+                "name": "thewii:gloomy_eyes/eyes/blink",
+                "volume": 0.75,
+                "pitch": 1.0,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/blink",
+                "volume": 0.95,
+                "pitch": 0.9,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/blink",
+                "volume": 1.0,
+                "pitch": 1.1,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/blink",
+                "volume": 0.85,
+                "pitch": 0.8,
+                "weight": 1
+            },
+            {
+                "name": "thewii:gloomy_eyes/eyes/blink",
+                "volume": 0.9,
+                "pitch": 1.2,
+                "weight": 1
+            }
+        ]
+    }
+}
