@@ -45,6 +45,9 @@ schedule function thewii:gloomy_eyes/core/tick/100 100t
 
 #declare score_holder #eyes.looking_away_time
 
+#declare score_holder #eyes.min_summon_amount
+#declare score_holder #eyes.max_summon_amount
+
 #declare score_holder #eyes.min_appearing_delay
 #declare score_holder #eyes.max_appearing_delay
 
@@ -53,4 +56,5 @@ schedule function thewii:gloomy_eyes/core/tick/100 100t
 
 #declare score_holder #eyes.default_summon_chance
 #declare score_holder #eyes.summon_chance_increase
+
 #declare score_holder #eyes.summon_max_ascend

@@ -1,6 +1,7 @@
 #> thewii:gloomy_eyes/player/check/find_player
-#particle smoke ~ ~ ~ 0.1 0.1 0.1 0 5 normal
 
+# Decrease score
+scoreboard players remove #loop twge.temp 1
 
 # Hit a block
 execute unless block ~ ~ ~ #thewii:gloomy_eyes/raycast_through run scoreboard players set #loop twge.temp -1
