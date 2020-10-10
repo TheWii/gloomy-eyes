@@ -1,7 +1,7 @@
 {
     "display": {
         "title": [{"text":"[v0.1.0] ","color":"#8F0404"},{"text":"Gloomy Eyes","color":"#C21010"}] ,
-        "description": [{"text":"Devolish eyes in the darkness.","color":"#EB3D3D"},{"translate":"\n\n[twge] Resource Pack is missing.","color":"#E04C4C"}],
+        "description": [{"text":"Devilish eyes in the darkness.","color":"#EB3D3D"},{"translate":"\n\n[twge] Resource Pack is missing.","color":"#E04C4C"}],
         "icon": {
             "item": "minecraft:barrier",
             "nbt": "{CustomModelData:430000}"
