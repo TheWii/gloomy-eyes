@@ -58,5 +58,6 @@ schedule function thewii:gloomy_eyes/core/tick/100 2t
 
 #declare score_holder #eyes.default_summon_chance
 #declare score_holder #eyes.summon_chance_increase
+#declare score_holder #eyes.haunted_neutral_time
 
 #declare score_holder #eyes.summon_max_ascend
