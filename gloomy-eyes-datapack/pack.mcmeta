@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": "Eyes in the darkness counterpart"
+        "description": [{"text":"Devolish eyes in the darkness.","color":"red"},{"text":"\nVersion 0.1.0 by TheWii","color":"dark_gray"}]
     }
 }
