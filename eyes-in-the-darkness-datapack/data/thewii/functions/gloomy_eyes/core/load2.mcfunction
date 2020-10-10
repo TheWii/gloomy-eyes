@@ -26,8 +26,8 @@ function thewii:gloomy_eyes/core/clear_storage
 
 
 # Schedules
-schedule function thewii:gloomy_eyes/core/tick/20 20t
-schedule function thewii:gloomy_eyes/core/tick/100 100t
+schedule function thewii:gloomy_eyes/core/tick/20 1t
+schedule function thewii:gloomy_eyes/core/tick/100 2t
 
 
 # Declarations
@@ -36,8 +36,10 @@ schedule function thewii:gloomy_eyes/core/tick/100 100t
 #declare objective twvp.math
 
 #declare storage thewii:gloomy_eyes/data
-#declare storage thewii:gloomy_eyes/temp
+#declare storage thewii:vp_library/data
+#declare storage thewii:vp_library/temp
 
+#declare tag twge.self
 #declare tag twge.new_eyes
 #declare tag twge.eyes
 #declare tag twge.matched

@@ -8,5 +8,5 @@ execute as @e[type=minecraft:area_effect_cloud,tag=twge.marker,limit=1] run func
 
 
 # Loop
-scoreboard players remove $spawn_amount twge.temp 1
-execute if score $spawn_amount twge.temp matches 1.. run function thewii:gloomy_eyes/player/check/spawn_loop
+scoreboard players remove $spawn_amount twvp.temp 1
+execute if score $spawn_amount twvp.temp matches 1.. run function thewii:gloomy_eyes/player/check/spawn_loop

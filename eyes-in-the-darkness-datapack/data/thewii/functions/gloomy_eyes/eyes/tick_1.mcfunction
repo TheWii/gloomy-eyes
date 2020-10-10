@@ -6,7 +6,7 @@
 
 
 # Increase gloomy eyes count
-scoreboard players add $gloomy_eyes twge.temp 1
+scoreboard players add $gloomy_eyes twvp.temp 1
 
 # Tag self
 tag @s add twge.self
@@ -16,8 +16,8 @@ tag @s add twge.self
 execute at @s facing entity @a[tag=twge.self,limit=1] eyes run tp @s ~ ~ ~ ~ ~
 
 # Head pose
-execute store result score $pose twge.temp run data get entity @s Rotation[1] 1000
-execute unless score $pose twge.temp = @s twge.pose run function thewii:gloomy_eyes/eyes/update_pose
+execute store result score $pose twvp.temp run data get entity @s Rotation[1] 1000
+execute unless score $pose twvp.temp = @s twge.pose run function thewii:gloomy_eyes/eyes/update_pose
 
 
 # Appearing delay

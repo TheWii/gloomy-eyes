@@ -1,7 +1,7 @@
 #> thewii:gloomy_eyes/eyes/appear2
 
 # Set id
-scoreboard players operation @s twge.id = #id twge.temp
+scoreboard players operation @s twge.id = #id twvp.temp
 
 
 # Appearing delay

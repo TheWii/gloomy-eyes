@@ -1,14 +1,14 @@
 #> thewii:gloomy_eyes/player/check/spread
 
 # Spread entity
-execute store result score #height twge.temp run data get entity @s Pos[1]
-scoreboard players add #height twge.temp 5
+execute store result score #height twvp.temp run data get entity @s Pos[1]
+scoreboard players add #height twvp.temp 5
 
 function thewii:gloomy_eyes/general/entity/spread/start
 
 
 # Check height
-scoreboard players operation #ascended twge.temp = #eyes.summon_max_ascend twge.data
+scoreboard players operation #ascended twvp.temp = #eyes.summon_max_ascend twge.data
 execute at @s run function thewii:gloomy_eyes/player/check/ascend/check_height
 
 
@@ -16,15 +16,15 @@ execute at @s run function thewii:gloomy_eyes/player/check/ascend/check_height
 scoreboard players set #min twvp.math 0
 
 scoreboard players operation #max twvp.math = #eyes.summon_max_ascend twge.data
-scoreboard players operation #max twvp.math -= #ascended twge.temp
+scoreboard players operation #max twvp.math -= #ascended twvp.temp
 
 function thewii:vp_library/math/lcg/ranged_rng
 
-scoreboard players operation #height twge.temp = #result twvp.math
+scoreboard players operation #height twvp.temp = #result twvp.math
 
 
 # DEBUG Ascending height
-#tellraw @p ["Ascending: ",{"score":{"name":"#height","objective":"twge.temp"}}]
+#tellraw @p ["Ascending: ",{"score":{"name":"#height","objective":"twvp.temp"}}]
 
 
 # Teleport

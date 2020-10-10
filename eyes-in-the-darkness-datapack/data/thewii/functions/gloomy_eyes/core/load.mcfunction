@@ -21,6 +21,6 @@ execute if score $1.16 thewii.load matches 0 run scoreboard players set #load th
 execute if score #load thewii.load matches 1 run function thewii:gloomy_eyes/core/load2
 
 
-# Fail messages
+# CHAT Fail messages
 execute if score #load thewii.load matches 0 run tellraw @a [{"text":"[Datapack]: ","color":"red","bold":true},{"text":"Gloomy Eyes failed to load. It requires Minecraft 1.16 or above.","color":"white","bold":false}]
 execute if score #load thewii.load matches -1 run tellraw @a [{"text":"[Datapack]: ","color":"red","bold":true},{"text":"Gloomy Eyes failed to load. Library files are either missing or there are incompatibilities between installed datapacks. Please, download the ","color":"white","bold":false},{"text":"latest version.","color":"white","bold":false,"underlined":true,"clickEvent": {"action": "open_url","value": "https://github.com/TheWii/gloomy-eyes/releases/latest"}}]

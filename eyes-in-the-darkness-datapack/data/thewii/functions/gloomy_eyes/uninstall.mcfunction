@@ -2,7 +2,7 @@
 
 # Objectives
 scoreboard objectives remove twge.data
-scoreboard objectives remove twge.temp
+scoreboard objectives remove twvp.temp
 scoreboard objectives remove twge.id
 scoreboard objectives remove twge.pose
 scoreboard objectives remove twge.animation
@@ -26,5 +26,5 @@ data remove storage thewii:gloomy_eyes/data version
 scoreboard players reset $gloomy_eyes thewii.load
 
 
-# Uninstalled message
+# CHAT Uninstalled message
 tellraw @a [{"text":"[Datapack]: ","color":"yellow","bold":true},{"text":"Gloomy Eyes was uninstalled. Disable the datapack to complete uninstallation or /reload to reinstall it.","color":"white","bold":false}]
