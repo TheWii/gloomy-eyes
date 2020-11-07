@@ -37,9 +37,9 @@ execute unless score #region twvp.temp matches 0..4 run function thewii:gloomy_e
 
 # Return
 scoreboard players operation #result twvp.math = #rgb.red twvp.temp
-scoreboard players operation #result twvp.math *= #256 twvp.math
+scoreboard players operation #result twvp.math *= #255 twvp.math
 scoreboard players operation #result twvp.math += #rgb.green twvp.temp
-scoreboard players operation #result twvp.math *= #256 twvp.math
+scoreboard players operation #result twvp.math *= #255 twvp.math
 scoreboard players operation #result twvp.math += #rgb.blue twvp.temp
 
 # DEBUG Hue to RGB
